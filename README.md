@@ -1,16 +1,9 @@
 # fitguidef
+Frontend-->Flutter
 
-A new Flutter project.
+Backend ---> Django
 
-## Getting Started
+AI framework----> tensorflow/TFlite
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Overview:
+FitGuide is an exercise app that lets the user monitor the correctness of their desired exercise. This is done by providing users the capability, functionality and ease of use to upload necessary data and be able to train a model based on the exercise they performed with just a click. Which in turn can populate libraries of exercises that other users may be able to discover and use these exercises that have the capability of checking the correctness of the exercise that the user wishes to perform.The app leverages the capability of Recurrent Neural Network Long Short-Term Memory(RNN-LSTM) model to analyze skeleton-based coordinates for spatial pattern and also sequence pattern to enable this app to determine the correctness of the exercise.
